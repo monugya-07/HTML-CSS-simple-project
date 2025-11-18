@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real Estate Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+    }
+
+    header {
+      background: #1a1a1a;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1568605114967-8130f3a36994') no-repeat center/cover;
+      height: 280px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 28px;
+      font-weight: bold;
+      text-shadow: 1px 1px 5px black;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .properties {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 10px;
+    }
+
+    .card {
+      background: white;
+      padding: 10px;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    footer {
+      background: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 12px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>DreamHomes Real Estate</header>
+
+<div class="hero">Find Your Dream Home</div>
+
+<h2>Featured Properties</h2>
+
+<div class="properties">
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" />
+    <h3>Luxury Villa</h3>
+    <p>₹80,00,000</p>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1572120360610-d971b9d7767c" />
+    <h3>Modern Apartment</h3>
+    <p>₹45,00,000</p>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae" />
+    <h3>Family House</h3>
+    <p>₹60,00,000</p>
+  </div>
+</div>
+
+<footer>© 2025 DreamHomes Real Estate</footer>
+
+</body>
+</html>
